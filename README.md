@@ -5,7 +5,7 @@ customizable in-place block spawning for live world generation, so an
 entire world doesn't need to be generated first. Basic water settling
 exists here as well as dirt occasionally falling and growing grass.
 
-![](topoftheyear.github.com/Local-Context-Based-World-Generation/readme_image_content/base_test.mp4)
+![](https://user-images.githubusercontent.com/14948706/71793332-18a8b980-3002-11ea-9380-c6237e9e86c9.png)
 
 ## How it Works
 ### Context
@@ -76,7 +76,7 @@ following.
 ```
 
 ## Customization
-![](topoftheyear.github.com/Local-Context-Based-World-Generation/readme_image_content/sticky_horizontal.png)
+![](https://user-images.githubusercontent.com/14948706/71793165-3e818e80-3001-11ea-9f9e-123ca58729af.png)
 An example of a world where blocks have a weight of 99 to themselves,
 no water. Only the 'horizontal' context blocks used.
 
@@ -84,11 +84,11 @@ Context can be changed to point any blocks towards each other with any
 weights. Multiple styles of blocks used for context can also be modified
 or appended to. Here are a few examples.
 
-![](topoftheyear.github.com/Local-Context-Based-World-Generation/readme_image_context/regular_left_right.png)
+![](https://user-images.githubusercontent.com/14948706/71793146-2a3d9180-3001-11ea-881e-ceff95984752.png)
 Weights unchanged, 'left' and 'right' context blocks used.
 
-![](topoftheyear.github.com/Local-Context-Based-World-Generation/readme_image_context/top.png)
+![](https://user-images.githubusercontent.com/14948706/71793171-48a38d00-3001-11ea-915e-bd7b846a6cc8.png)
 None weight to itself reduced by 4 to 95, 'top' context blocks used.
 
-![](topoftheyear.github.com/Local-Context-Based-World-Generation/readme_image_context/context_balanced.png)
+![](https://user-images.githubusercontent.com/14948706/71793181-52c58b80-3001-11ea-845c-0057a663182a.png)
 All blocks point to every other block with a weight of 1.
